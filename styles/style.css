@@ -148,13 +148,14 @@
 }
 .lots__card-list {
   display: flex;
+  flex-wrap: wrap;
   gap: 25px;
   width: 100%;
   margin-bottom: 25px;
   list-style: none;
 }
 .lots__card-list-item {
-  flex: 1 1 340px;
+  flex: 1 1 334px;
   min-height: 563px;
 }
 .lots__look-more-link {
